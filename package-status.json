@@ -1,0 +1,11 @@
+{
+	"packages": {
+		"polyglot": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/latest/download/module.json",
+			"repo": "League-of-Foundry-Developers/fvtt-module-polyglot",
+			"maintained": true,
+			"deprecated": false,
+			"maintainer": "mclemente"
+		}
+	}
+}
