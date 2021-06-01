@@ -1,19 +1,19 @@
 {
-  "schemaVersion": 1,
-  "packages": {
-    "polyglot": {
-      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/latest/download/module.json",
-      "repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot",
-      "maintained": true,
-      "deprecated": false,
-      "maintaines": ["mclemente"]
-    },
-    "roofs": {
-      "manifest": "https://github.com/League-of-Foundry-Developers/roofs/releases/latest/download/module.json",
-      "repo": "https://github.com/League-of-Foundry-Developers/roofs",
-      "maintained": false,
-      "deprecated": true,
-      "maintaines": []
-    }
-  }
+	"schemaVersion": 1,
+	"packages": {
+		"polyglot": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot",
+			"maintained": true,
+			"deprecated": false,
+			"maintaines": ["mclemente"]
+		},
+		"roofs": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/roofs/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/roofs",
+			"maintained": false,
+			"deprecated": true,
+			"maintaines": []
+		}
+	}
 }
