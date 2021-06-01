@@ -1,0 +1,27 @@
+name: Update Shields Endpoint
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: Create Node Environment
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Run Script
+        run: node ./index.js
+        working-directory: .github/workflows/badges
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: shields-endpoint
+          FOLDER: .github/workflows/badges/out
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
