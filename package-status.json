@@ -3,14 +3,14 @@
 	"packages": {
 		"polyglot": {
 			"manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/latest/download/module.json",
-			"repo": "League-of-Foundry-Developers/fvtt-module-polyglot",
+			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot",
 			"maintained": true,
 			"deprecated": false,
 			"maintainer": "mclemente"
 		},
 		"roofs": {
 			"manifest": "https://github.com/League-of-Foundry-Developers/roofs/releases/latest/download/module.json",
-			"repo": "League-of-Foundry-Developers/roofs",
+			"repo": "https://github.com/League-of-Foundry-Developers/roofs",
 			"maintained": false,
 			"deprecated": true,
 			"maintainer": ""
