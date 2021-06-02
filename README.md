@@ -35,6 +35,8 @@ The `package-status.json` follows the following schema:
 ## Example Badges
 View this files's source to see how these badges are made.
 ### Polyglot:
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fpolyglot.json)
+
 ![](https://img.shields.io/badge/dynamic/json?label=Maintained&query=packages.polyglot.maintained&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
 ![](https://img.shields.io/badge/dynamic/json?label=Maintainer&query=packages.polyglot.maintainer&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
 ![](https://img.shields.io/badge/dynamic/json?label=Deprecated&query=packages.polyglot.deprecated&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
