@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { deflateRawSync } = require("node:zlib");
 const path = require("path");
 
 const packageStatus = require(path.join(__dirname, "../../../package-status.json"));
