@@ -28,25 +28,25 @@ The `package-status.json` follows the following schema:
 
 ```js
 {
-	"schemaVersion": 1, // The current version of this schema
-	"packages": {       // A mapping of all packages in the org to their canonical name (from their manifest)
-		"name": {
-			// The canonical location of the manifest file for the package - should be valid for installation
-			"manifest": "module.json",
+    "schemaVersion": 1, // The current version of this schema
+    "packages": {       // A mapping of all packages in the org to their canonical name (from their manifest)
+        "name": {
+            // The canonical location of the manifest file for the package - should be valid for installation
+            "manifest": "module.json",
 
-			// The URL of the package repository, usually looks like "https://github.com/username/repo-name"
-			"repo": "https://host.com/user/repo-name",
+            // The URL of the package repository, usually looks like "https://github.com/username/repo-name"
+            "repo": "https://host.com/user/repo-name",
 
-			// Whether or not the package is currently being maintained
-			"maintained": boolean,
+            // Whether or not the package is currently being maintained
+            "maintained": boolean,
 
-			// Either false, or set to the last compatible version number if the package should no longer be maintained due to being too outdated/unneeded                  
-			"deprecated": boolean | "0.7.10",
-			
-			// An array of user names of people actively maintaining the project.             
-			"maintainers": ["username"]
-		}
-	}
+            // Either false, or set to the last compatible version number if the package should no longer be maintained due to being too outdated/unneeded                  
+            "deprecated": boolean | "0.7.10",
+            
+            // An array of user names of people actively maintaining the project.             
+            "maintainers": ["username"]
+        }
+    }
 }
 ```
 
