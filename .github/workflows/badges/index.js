@@ -4,12 +4,12 @@ const path = require("path");
 const packageStatus = require(path.join(__dirname, "../../../package-status.json"));
 
 /** 
- * @typedef  {object}    PackageData - A set of data outlining the maintainance status of a package
- * @property {string}    manifest    - The canonical location of the manifest file for the package - should be valid for installation
- * @property {string}    repo        - The URL of the package repository, usually looks like "https://github.com/username/repo-name"
- * @property {boolean}  [maintained] - Whether or not the package is currently being maintained
- * @property {boolean}  [deprecated] - Set to true if the package should no longer be maintained due to being too outdated/unneeded
- * @property {string[]}  maintainers - An array of user names of people actively maintaining the project.
+ * @typedef  {object}           PackageData - A set of data outlining the maintainance status of a package
+ * @property {string}           manifest    - The canonical location of the manifest file for the package - should be valid for installation
+ * @property {string}           repo        - The URL of the package repository, usually looks like "https://github.com/username/repo-name"
+ * @property {boolean}         [maintained] - Whether or not the package is currently being maintained
+ * @property {string|boolean}  [deprecated] - Set to the last compatible version number if the package should no longer be maintained due to being too outdated/unneeded
+ * @property {string[]}         maintainers - An array of user names of people actively maintaining the project.
  */
 
 /** 

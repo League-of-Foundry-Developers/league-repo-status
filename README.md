@@ -22,8 +22,8 @@ The `package-status.json` follows the following schema:
 			// Whether or not the package is currently being maintained
 			"maintained": boolean,
 
-			// Set to true if the package should no longer be maintained due to being too outdated/unneeded                  
-			"deprecated": boolean,
+			// Either false, or set to the last compatible version number if the package should no longer be maintained due to being too outdated/unneeded                  
+			"deprecated": boolean | "0.7.10",
 			
 			// An array of user names of people actively maintaining the project.             
 			"maintainers": ["username"]
@@ -45,9 +45,6 @@ View this files's source to see how these badges are made.
 
 ### SWADE Community Sheet
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fswade-community-sheet.json)
-
-### Data Error
-![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fother-module.json)
 
 ### No Data
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fsome-other-module.json)
