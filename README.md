@@ -17,6 +17,11 @@ Repository maintainers in this organization should add the status badge to the t
 
 Note that you need to replace `packag-name` at the end with the canonical name attribute from the module manifest. The `%2F` in front of the name is important, as this is a URL encoded string, the `%2F` represents a `/` character. Just replace everything between `%2F` and `.json`. Also replace the `Package Title` as appropriate.
 
+#### Example Badges
+![Multiple](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-maintained-multiple.json)
+![Maintained](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-maintained.json)
+![Deprecated](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-not-maintained.json)
+![Not Maintained](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-deprecated.json)
 
 ### Package Status Schema
 The `package-status.json` follows the following schema:
@@ -46,9 +51,3 @@ The `package-status.json` follows the following schema:
 ```
 
 Try to keep this data up to date by submitting a Pull Request with modifications.
-
-### Example Badges
-![Multiple](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-maintained-multiple.json)
-![Maintained](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-maintained.json)
-![Deprecated](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-not-maintained.json)
-![Not Maintained](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fexample-deprecated.json)
