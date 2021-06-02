@@ -33,8 +33,7 @@ The `package-status.json` follows the following schema:
         "name": {
             // The canonical location of the manifest file for the package
             // Should be valid for installation (usually identical to the `manifest` field in your manifest)
-            // Such as https://raw.githubusercontent.com/user/repo/main/manifest.json
-            "manifest": "module.json",
+            "manifest": "https://raw.githubusercontent.com/user/repo/main/manifest.json",
 
             // The URL of the package repository, usually looks like "https://github.com/username/repo-name"
             "repo": "https://host.com/user/repo-name",
