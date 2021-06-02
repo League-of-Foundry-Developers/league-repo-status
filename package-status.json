@@ -63,7 +63,7 @@
 			"maintained": true,
 			"deprecated": false,
 			"maintainers": ["MClemente"]
-    }
+    },
     "healthEstimate": {
       "manifest": "module.json",
 			"repo": "https://github.com/mclemente/healthEstimate",
