@@ -1,20 +1,6 @@
 {
 	"schemaVersion": 1,
 	"packages": {
-		"simplefog": {
-			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/simplefog/master/module.json",
-			"repo": "https://github.com/League-of-Foundry-Developers/simplefog",
-			"maintained": true,
-			"deprecated": false,
-			"maintainers": ["crhampton1", "moorepants"]
-		},
-		"polyglot": {
-			"manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/latest/download/module.json",
-			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot",
-			"maintained": true,
-			"deprecated": false,
-			"maintainers": ["mclemente"]
-		},
 		"swade-community-sheet": {
 			"manifest": "https://github.com/League-of-Foundry-Developers/swade-community-sheet/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/swade-community-sheet",
@@ -29,6 +15,36 @@
 			"deprecated": "0.7.10",
 			"maintainers": []
 		},
-		"other-module": { }
+
+
+
+		"example-maintained-multiple": {
+			"manifest": "module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/league-repo-status",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["zeel", "ElfFriend"]
+		},
+		"example-maintained": {
+			"manifest": "module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/league-repo-status",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["CSwendrowski"]
+		},
+		"example-not-maintained": {
+			"manifest": "module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/league-repo-status",
+			"maintained": false,
+			"deprecated": false,
+			"maintainers": []
+		},
+		"example-deprecated": {
+			"manifest": "module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/league-repo-status",
+			"maintained": false,
+			"deprecated": "0.6.3",
+			"maintainers": []
+		}
 	}
 }
