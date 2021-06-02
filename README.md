@@ -34,6 +34,9 @@ The `package-status.json` follows the following schema:
 
 ## Example Badges
 View this files's source to see how these badges are made.
+### Simplefog:
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fsimplefog.json)
+
 ### Polyglot:
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fpolyglot.json)
 
