@@ -1,1 +1,1 @@
-{"schemaVersion":1,"label":"Status","message":"Deprecated"}
+{"schemaVersion":1,"label":"Deprecated","message":"This package should not be used after the Compatible Core Version number.","color":"red"}
