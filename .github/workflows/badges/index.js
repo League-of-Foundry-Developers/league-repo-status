@@ -62,9 +62,9 @@ function getBadge(packageInfo) {
     return getNotMaintained(data);
 
   // Not valid data
-  data.label = "Error";
+  data.label   = "Error";
   data.message = "Status data error"
-  data.isError = true;
+  data.color   = "red";
 
   return data;
 }
@@ -78,7 +78,10 @@ function getBadge(packageInfo) {
  */
 function getDeprecated(packageInfo, data) {
   data.label   = "Deprecated";
-  data.message = "This package should not be used after the Compatible Core Version number.";
+  data.message = packageInfo.deprecated.length ? // If it's a string, display that, otherwise a static message
+                 `After Foundry version ${packageInfo.deprecated}` : 
+                 "After compatible core version";
+
   data.color   = "red";
 
   return data;
@@ -92,9 +95,9 @@ function getDeprecated(packageInfo, data) {
  * @return {ShieldsEndpointData}
  */
 function getMaintained(packageInfo, data) {
-  data.label   = "Maintainers";
+  data.label   = packageInfo.maintainers.length > 1 ? "Maintainers" : "Maintainer";
   data.message = packageInfo.maintainers.join(", ");
-  data.color   = "green";
+  data.color   = "blueviolet";
 
   return data;
 }
