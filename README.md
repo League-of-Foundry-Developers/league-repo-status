@@ -5,7 +5,20 @@ The `package-status.json` file contains a list of packages in this organization,
 
 **We welcome Pull Requests** when a package status needs updated.
 
-## Package Status Schema
+## For Package Maintainers
+All packages in this organization should have their status recorded in the `package-status.json` and a status badge displayed at the top of their readme.
+
+### Badges
+Repository maintainers in this organization should add the status badge to the top of their readme. The code for a badge looks like this:
+
+```md
+![Package Title](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fpackage-name.json)
+```
+
+Note that you need to replace `packag-name` at the end with the canonical name attribute from the module manifest. The `%2F` in front of the name is important, as this is a URL encoded string, the `%2F` represents a `/` character. Just replace everything between `%2F` and `.json`. Also replace the `Package Title` as appropriate.
+
+
+### Package Status Schema
 The `package-status.json` follows the following schema:
 
 ```js
@@ -32,19 +45,21 @@ The `package-status.json` follows the following schema:
 }
 ```
 
-## Example Badges
-View this files's source to see how these badges are made.
-### Simplefog:
-![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fsimplefog.json)
+Try to keep this data up to date by submitting a Pull Request with modifications.
 
-### Polyglot:
-![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fpolyglot.json)
+### Example Badges
 
-### Roofs
-![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Froofs.json)
+#### Simplefog:
+![Simple Fog](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fsimplefog.json)
 
-### SWADE Community Sheet
-![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fswade-community-sheet.json)
+#### Polyglot:
+![Polyglot](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fpolyglot.json)
 
-### No Data
-![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fsome-other-module.json)
+#### Roofs
+![Roofs](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Froofs.json)
+
+#### SWADE Community Sheet
+![SWADE Community Sheet](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fswade-community-sheet.json)
+
+#### Error
+![null](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fsome-other-module.json)
