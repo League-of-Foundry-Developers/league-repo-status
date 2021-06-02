@@ -29,6 +29,13 @@
 			"deprecated": false,
 			"maintainers": ["sneat"]
 		},
+		"compendium-browser": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/compendium-browser/releases/download/latest/module.json",
+			"repo": ""https://github.com/League-of-Foundry-Developers/compendium-browser",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["spetzel2020"]
+		},
 
 
 
