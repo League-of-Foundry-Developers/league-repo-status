@@ -8,6 +8,13 @@
 			"deprecated": false,
 			"maintainers": ["mclemente"]
 		},
+		"_mathjs": {
+			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/mathjs-lib/master/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/mathjs-lib",
+			"maintained": false,
+			"deprecated": false,
+			"maintainers": []
+		},
 		"roofs": {
 			"manifest": "https://github.com/League-of-Foundry-Developers/roofs/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/roofs",
@@ -15,12 +22,6 @@
 			"deprecated": true,
 			"maintainers": []
 		},
-		"about-face": {
-			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/about-face/master/src/module.json",
-			"repo": "https://github.com/League-of-Foundry-Developers/about-face",
-			"maintained": true,
-			"deprecated": false,
-			"maintainers": ["edzillion"]
-		}
+		"other-module": { }
 	}
 }
