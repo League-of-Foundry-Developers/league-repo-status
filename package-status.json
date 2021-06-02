@@ -16,14 +16,14 @@
 			"maintainers": []
 		},
 		"scene-packer": {
-			"manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/module.json",
+			"manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/scene-packer",
 			"maintained": true,
 			"deprecated": false,
 			"maintainers": ["sneat"]
 		},
 		"forien-copy-environment": {
-			"manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment/module.json",
+			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment/master/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/foundryvtt-forien-copy-environment",
 			"maintained": true,
 			"deprecated": false,
