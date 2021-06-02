@@ -31,7 +31,9 @@ The `package-status.json` follows the following schema:
     "schemaVersion": 1, // The current version of this schema
     "packages": {       // A mapping of all packages in the org to their canonical name (from their manifest)
         "name": {
-            // The canonical location of the manifest file for the package - should be valid for installation
+            // The canonical location of the manifest file for the package
+            // Should be valid for installation (usually identical to the `manifest` field in your manifest)
+            // Such as https://raw.githubusercontent.com/user/repo/main/manifest.json
             "manifest": "module.json",
 
             // The URL of the package repository, usually looks like "https://github.com/username/repo-name"
