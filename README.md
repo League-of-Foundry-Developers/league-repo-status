@@ -37,11 +37,14 @@ View this files's source to see how these badges are made.
 ### Polyglot:
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fpolyglot.json)
 
-![](https://img.shields.io/badge/dynamic/json?label=Maintained&query=packages.polyglot.maintained&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
-![](https://img.shields.io/badge/dynamic/json?label=Maintainer&query=packages.polyglot.maintainer&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
-![](https://img.shields.io/badge/dynamic/json?label=Deprecated&query=packages.polyglot.deprecated&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
-
 ### Roofs
-![](https://img.shields.io/badge/dynamic/json?label=Maintained&query=packages.roofs.maintained&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
-![](https://img.shields.io/badge/dynamic/json?label=Maintainer&query=packages.roofs.maintainer&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
-![](https://img.shields.io/badge/dynamic/json?label=Deprecated&query=packages.roofs.deprecated&url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fmain%2Fpackage-status.json)
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Froofs.json)
+
+### Math.js (fake)
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2F_mathjs.json)
+
+### Data Error
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fother-module.json)
+
+### No Such Module
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLeague-of-Foundry-Developers%2Fleague-repo-status%2Fshields-endpoint%2Fsome-other-module.json)
