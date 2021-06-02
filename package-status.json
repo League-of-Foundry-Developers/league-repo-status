@@ -30,42 +30,42 @@
 			"maintainers": ["sneat"]
 		},
     "furnace": {
-      "manifest": "module.json",
+      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-furnace/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-furnace",
 			"maintained": false,
 			"deprecated": "0.7.10",
 			"maintainers": []
     },
     "advanced-macros": {
-      "manifest": "module.json",
+      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros",
 			"maintained": false,
 			"deprecated": false,
 			"maintainers": []
     },
     "initiative-double-click": {
-      "manifest": "module.json",
+      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-initiative-double-click/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-initiative-double-click",
 			"maintained": false,
 			"deprecated": false,
 			"maintainers": []
     },
     "split-journal": {
-      "manifest": "module.json",
+      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-split-journal/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-split-journal",
 			"maintained": false,
 			"deprecated": false,
 			"maintainers": []
     },
     "polyglot": {
-      "manifest": "module.json",
+      "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot",
 			"maintained": true,
 			"deprecated": false,
 			"maintainers": ["MClemente"]
     },
     "healthEstimate": {
-      "manifest": "module.json",
+      "manifest": "https://github.com/mclemente/healthEstimate/releases/latest/download/module.json",
 			"repo": "https://github.com/mclemente/healthEstimate",
 			"maintained": true,
 			"deprecated": false,
