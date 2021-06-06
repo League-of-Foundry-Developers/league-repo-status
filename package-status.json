@@ -78,6 +78,13 @@
 			"deprecated": false,
 			"maintainers": ["MClemente"]
 		},
+		"bug-reporter": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/bug-reporter/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/bug-reporter",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["Ethck", "ElfFriend", "CSwendrowski"]
+    },
 		"lmrtfy": {
 			"manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-lmrtfy/releases/latest/download/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-lmrtfy",
@@ -85,7 +92,6 @@
 			"deprecated": false,
 			"maintainers": ["ElfFriend", "vtt-lair", "Varriount"]
     },
-    {
 		"token-action-hud": {
 			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-tokenactionhud/master/module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-tokenactionhud",
