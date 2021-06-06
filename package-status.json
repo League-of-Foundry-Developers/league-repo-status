@@ -78,6 +78,13 @@
 			"deprecated": false,
 			"maintainers": ["MClemente"]
 		},
+		"lmrtfy": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-lmrtfy/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-lmrtfy",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["ElfFriend", "vtt-lair", "Varriount"]
+		},
 
 
 
