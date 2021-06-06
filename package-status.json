@@ -78,6 +78,13 @@
 			"deprecated": false,
 			"maintainers": ["MClemente"]
 		},
+		"bug-reporter": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/bug-reporter/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/bug-reporter",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["Ethck", "ElfFriend", "CSwendrowski"]
+		},
 
 
 
