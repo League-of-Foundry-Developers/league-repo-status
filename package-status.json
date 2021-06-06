@@ -78,6 +78,13 @@
 			"deprecated": false,
 			"maintainers": ["MClemente"]
 		},
+		"token-action-hud": {
+			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-tokenactionhud/master/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-tokenactionhud",
+			"maintained": false,
+			"deprecated": false,
+			"maintainers": [""]
+		},
 
 
 
