@@ -113,6 +113,27 @@
 			"deprecated": false,
 			"maintainers": ["megahead11 (PakkiSukibe)"]
 		},
+		"_CodeMirror": {
+			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/codemirror-lib/master/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/codemirror-lib",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["zeel01"]
+		},
+		"_mathjs": {
+			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/mathjs-lib/master/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/mathjs-lib",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["zeel01"]
+		},
+		"_sortablejs": {
+			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/sortablejs-lib/main/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/sortablejs-lib",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["bmarian"]
+		},
 
 
 		"example-maintained-multiple": {
