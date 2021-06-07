@@ -141,6 +141,13 @@
 			"deprecated": false,
 			"maintainers": ["Fallayn"]
 		},
+		"foundryvtt-forien-quest-log": {
+			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/foundryvtt-forien-quest-log/master/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/foundryvtt-forien-quest-log",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["xdy"]
+		},
 
 
 		"example-maintained-multiple": {
