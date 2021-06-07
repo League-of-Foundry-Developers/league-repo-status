@@ -134,6 +134,13 @@
 			"deprecated": false,
 			"maintainers": ["bmarian"]
 		},
+		"foundryvtt-dnd5e-lang-de": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/foundryvtt-dnd5e-lang-de",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["Fallayn"]
+		},
 
 
 		"example-maintained-multiple": {
