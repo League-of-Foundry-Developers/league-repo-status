@@ -148,6 +148,13 @@
 			"deprecated": false,
 			"maintainers": ["xdy"]
 		},
+		"permission_viewer": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-permission-viewer/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-permission-viewer",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["Malekal"]
+		},
 
 
 		"example-maintained-multiple": {
