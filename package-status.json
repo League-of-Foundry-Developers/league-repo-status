@@ -157,6 +157,15 @@
 		},
 
 
+		"Leo-bot": {
+			"repo": "https://github.com/League-of-Foundry-Developers/Leo-bot",
+			"non-foundry": true,
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["zeel01"]
+		},
+
+
 		"example-maintained-multiple": {
 			"manifest": "module.json",
 			"repo": "https://github.com/League-of-Foundry-Developers/league-repo-status",
