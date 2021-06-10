@@ -1,7 +1,12 @@
 name: Update Shields Endpoint
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+    paths:
+      - "package-status.json"
+      - ".github/workflows/badges.yml"
+      - ".github/workflows/badges/**"
   workflow_dispatch:
 
 jobs:
