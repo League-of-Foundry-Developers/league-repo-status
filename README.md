@@ -1,5 +1,5 @@
 # League Repo Statuses
-This repository is used to track the status of various packages in this organization. The League does not maintain the packages in this organization directly, instead the League provides a place to "park" pacakges that are no longer being maintained by their original author, so that a new maintainer can easily be granted access after the author has gone.
+This repository is used to track the status of various packages in this organization. The League does not maintain the packages in this organization directly, instead the League provides a place to "park" packages that are no longer being maintained by their original author, so that a new maintainer can easily be granted access after the author has gone.
 
 The `package-status.json` file contains a list of packages in this organization, and their current status. This data is used to feed badges on each package readme so that each repo has a status indication which is maintained in a central location.
 
