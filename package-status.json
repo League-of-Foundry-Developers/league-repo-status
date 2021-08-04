@@ -155,9 +155,9 @@
 			"deprecated": false,
 			"maintainers": ["Malekal"]
 		},
-		"_extended-journal-sheets": {
-			"manifest": "https://github.com/League-of-Foundry-Developers/extended-journal-sheets/releases/latest/download/module.json",
-			"repo": "https://github.com/League-of-Foundry-Developers/extended-journal-sheets",
+		"_document-sheet-registrar": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/document-sheet-registrar/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/document-sheet-registrar",
 			"maintained": true,
 			"deprecated": false,
 			"maintainers": ["ElfFriend", "zeel01"]
