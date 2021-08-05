@@ -162,7 +162,13 @@
 			"deprecated": false,
 			"maintainers": ["ElfFriend", "zeel01"]
 		},
-
+		"_dev-mode": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/foundryvtt-devMode/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/foundryvtt-devMode",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["ElfFriend"]
+		},
 
 		"Leo-bot": {
 			"repo": "https://github.com/League-of-Foundry-Developers/Leo-bot",
