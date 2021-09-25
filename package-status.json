@@ -90,7 +90,7 @@
 			"repo": "https://github.com/League-of-Foundry-Developers/fvtt-module-lmrtfy",
 			"maintained": true,
 			"deprecated": false,
-			"maintainers": ["ElfFriend", "vtt-lair", "Varriount"]
+			"maintainers": ["vtt-lair", "Varriount"]
     		},
 		"token-action-hud": {
 			"manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/fvtt-tokenactionhud/master/module.json",
