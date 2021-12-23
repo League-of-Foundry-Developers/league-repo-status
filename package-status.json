@@ -169,6 +169,13 @@
 			"deprecated": false,
 			"maintainers": ["ElfFriend"]
 		},
+		"card-slayer": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/card-slayer/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/card-slayer",
+			"maintained": true,
+			"deprecated": false,
+			"maintainers": ["zeel01", "Norc"]
+		},
 
 		"Leo-bot": {
 			"repo": "https://github.com/League-of-Foundry-Developers/Leo-bot",
