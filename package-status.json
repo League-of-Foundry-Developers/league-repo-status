@@ -169,9 +169,9 @@
 			"deprecated": false,
 			"maintainers": ["ElfFriend"]
 		},
-		"card-slayer": {
-			"manifest": "https://github.com/League-of-Foundry-Developers/card-slayer/releases/latest/download/module.json",
-			"repo": "https://github.com/League-of-Foundry-Developers/card-slayer",
+		"cardslayer": {
+			"manifest": "https://github.com/League-of-Foundry-Developers/cardslayer/releases/latest/download/module.json",
+			"repo": "https://github.com/League-of-Foundry-Developers/cardslayer",
 			"maintained": true,
 			"deprecated": false,
 			"maintainers": ["zeel01", "Norc"]
